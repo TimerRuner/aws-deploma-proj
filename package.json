@@ -1,0 +1,25 @@
+{
+  "name": "aws-cource",
+  "version": "1.0.0",
+  "description": "AWS course project",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "Vadym Maslovskyi",
+  "license": "ISC",
+  "dependencies": {
+    "@aws-sdk/s3-request-presigner": "^3.556.0",
+    "aws-sdk": "^2.1603.0",
+    "axios": "^1.6.8",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "express-fileupload": "^1.5.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
